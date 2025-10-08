@@ -7,6 +7,6 @@ email: casydneyp@gmail.com
 
 header_pages:
   - index.md
-  - cv.md
+  - cv.html
   - projects.md
   - contact.md
