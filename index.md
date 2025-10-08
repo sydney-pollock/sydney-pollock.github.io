@@ -11,6 +11,6 @@ I'm Sydney Pollock, [add your role/title here - e.g., "a data scientist" or "a r
 [Write a brief introduction about yourself - your background, interests, what you do]
 
 ## Quick Links
-- [View My Projects](/projects/)
-- [Download My CV](/cv/)
-- [Contact Me](/contact/)
+- [View My Projects](projects.md)
+- [Download My CV](cv.md)
+- [Contact Me](contact.md)
