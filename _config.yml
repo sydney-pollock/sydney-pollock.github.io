@@ -4,3 +4,8 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 author: Sydney Pollock
 email: casydneyp@gmail.com
+
+header_pages:
+  - projects.md
+  - cv.md
+  - contact.md
