@@ -1,12 +1,39 @@
+# Site settings
 title: Sydney Pollock
-description: My Portfolio Website
-remote_theme: pages-themes/cayman@v0.2.0
+email: your.email@example.com
+description: >-
+  Portfolio and professional website
+baseurl: ""
+url: "https://sydney-pollock.github.io"
 
-author: Sydney Pollock
-email: casydneyp@gmail.com
+# Build settings
+markdown: kramdown
+theme: minima
 
-header_pages:
-  - index.md
-  - cv.html
-  - projects.md
-  - contact.md
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
