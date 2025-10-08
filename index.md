@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 # Welcome!
@@ -11,5 +12,5 @@ I'm Sydney Pollock, [add your role/title here - e.g., "a data scientist" or "a r
 
 ## Quick Links
 - [View My Projects](/projects/)
-- [Download My CV](/assets/cv.pdf/)
+- [Download My CV](/cv/)
 - [Contact Me](/contact/)
