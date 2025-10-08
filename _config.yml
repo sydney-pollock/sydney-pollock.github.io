@@ -1,8 +1,6 @@
 title: Sydney Pollock
 description: My Portfolio Website
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
 
-
-# Your information
 author: Sydney Pollock
 email: casydneyp@gmail.com
