@@ -6,10 +6,10 @@ permalink: /contact/
 
 ## Get in Touch
 
-**Email:** your.email@example.com
+**Email:** casydneyp@gmail.com
 
-**LinkedIn:** [Your Name](https://linkedin.com/in/yourprofile)
+**LinkedIn:** [Sydney Pollock]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/sydney-pollock-35057b242/))
 
-**GitHub:** [yourusername](https://github.com/yourusername)
+**GitHub:** [sydney-pollock]([https://github.com/yourusername](https://github.com/sydney-pollock))
 
-**Location:** City, Country
+**Location:** Bournemouth, United Kingdom
