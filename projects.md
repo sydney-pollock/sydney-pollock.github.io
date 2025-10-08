@@ -1,23 +1,51 @@
 ---
-layout: page
-title: Projects
-permalink: /projects/
+layout: default
+title: My Projects
 ---
 
-## My Projects
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-### AI Agent to track Vinyl Record Preorders
-Description of your first project. What technologies did you use? What problem did it solve?
-### Demo Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aad_FxUojA8?si=k-HNPYj_50wswemm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<header class="page-header">
+  <h1>🚀 My Projects</h1>
+  <p>A collection of experiments, tools, and AI-powered creations.</p>
+</header>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/aad_FxUojA8?si=k-HNPYj_50wswemm" frameborder="0" allowfullscreen></iframe>
+<div class="projects-container">
+  {% for project in site.data.projects %}
+    <section class="project-card">
+      <h2>{{ project.title }}</h2>
+      <p><strong>Technologies:</strong> {{ project.technologies }}</p>
+      <p>{{ project.description }}</p>
+
+      {% if project.video %}
+        <div class="video-container">
+          <iframe src="{{ project.video }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endif %}
+
+      {% if project.github %}
+        <a href="{{ project.github }}" class="github-link" target="_blank">
+          <i class="fab fa-github"></i> View on GitHub
+        </a>
+      {% endif %}
+    </section>
+  {% endfor %}
 </div>
 
----
+<script>
+document.addEventListener("scroll", () => {
+  document.querySelectorAll(".project-card").forEach(card => {
+    const rect = card.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      card.style.opacity = 1;
+      card.style.transform = "translateY(0)";
+    }
+  });
+});
 
-### Project Name 2
-Description of your second project.
-
-[View on GitHub](https://github.com/yourusername/project2)
+document.querySelectorAll(".project-card").forEach(card => {
+  card.style.opacity = 0;
+  card.style.transform = "translateY(40px)";
+  card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+});
+</script>
