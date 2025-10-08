@@ -9,14 +9,13 @@ title: Projects
     
     <div class="projects-grid">
         <div class="project-card">
-            <div class="project-tag">Machine Learning</div>
-            <div class="project-tag">Python</div>
-            <div class="project-tag">TensorFlow</div>
-            <h3 class="project-title">Customer Churn Prediction Model</h3>
+            <div class="project-tag">Dust.tt</div>
+            <div class="project-tag">No-code AI agent</div>
+            <div class="project-tag">Claude Sonnet</div>
+            <h3 class="project-title">Order Tracking AI Agent</h3>
             <p class="project-description">
-                Developed a machine learning model to predict customer churn with 92% accuracy. 
-                Implemented using Python, scikit-learn, and TensorFlow. The model helped reduce 
-                churn by 15% through targeted retention strategies.
+                Developed an AI agent to track scrape information from email screenshot and track expected 
+                delivery dates and status in a Notion database.
             </p>
             <div style="margin-top: 1rem;">
                 <a href="#" style="color: var(--color-primary); text-decoration: none; font-weight: 500;">View Project →</a>
@@ -25,13 +24,11 @@ title: Projects
         
         <div class="project-card">
             <div class="project-tag">Data Visualization</div>
-            <div class="project-tag">D3.js</div>
-            <div class="project-tag">React</div>
-            <h3 class="project-title">Interactive Climate Data Dashboard</h3>
+            <div class="project-tag">Python</div>
+            <div class="project-tag">Pandas</div>
+            <h3 class="project-title">Get to know me through my music</h3>
             <p class="project-description">
-                Created an interactive web-based dashboard to visualize 50 years of global 
-                climate data. Features include animated timelines, geographic heat maps, 
-                and trend analysis tools built with D3.js and React.
+                Created a range of data visualisations to demonstrate my music taste and listening habits.
             </p>
             <div style="margin-top: 1rem;">
                 <a href="#" style="color: var(--color-primary); text-decoration: none; font-weight: 500;">View Project →</a>
@@ -39,14 +36,12 @@ title: Projects
         </div>
         
         <div class="project-card">
-            <div class="project-tag">NLP</div>
+            <div class="project-tag">LLMs</div>
             <div class="project-tag">Python</div>
-            <div class="project-tag">BERT</div>
-            <h3 class="project-title">Sentiment Analysis for Social Media</h3>
+            <div class="project-tag">Prompt Engineering</div>
+            <h3 class="project-title">LLM-Driven Argument Mining and Feedback on Student Essays</h3>
             <p class="project-description">
-                Built a natural language processing system to analyze sentiment in social 
-                media posts. Used BERT transformers and achieved 88% accuracy in multi-class 
-                sentiment classification across 100,000+ posts.
+                Built a pipeline of LLMs to evaluate and provide feedback on student's persuasive writing.
             </p>
             <div style="margin-top: 1rem;">
                 <a href="#" style="color: var(--color-primary); text-decoration: none; font-weight: 500;">View Project →</a>
