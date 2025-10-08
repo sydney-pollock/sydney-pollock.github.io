@@ -1,0 +1,9 @@
+- title: "AI Agent to Track Vinyl Record Preorders"
+  technologies: "OpenAI API, Python, Airtable API"
+  description: "An AI agent that automates tracking vinyl record preorders by reading emails and updating an Airtable dashboard. It helps collectors keep tabs on delivery timelines effortlessly."
+  video: "https://www.youtube.com/embed/aad_FxUojA8?si=oEaZcadwnBBLyP_o"
+
+- title: "Project Name 2"
+  technologies: "React, Node.js, MongoDB"
+  description: "A web app that visualizes data from APIs in real time. Designed to simplify monitoring and analytics workflows."
+  github: "https://github.com/your-other-repo"
