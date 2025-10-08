@@ -17,17 +17,10 @@ permalink: /cv/
   <section>
     <h2><i class="fa-solid fa-user"></i> About Me</h2>
     <p>Hello! I’m <strong>Sydney Pollock</strong>.  
-    I am a data and Machine Learning enthusiast, fascinated by how real-world impact data insights can revolutionise business decisions. I bring 3 years of professional experience translating BI dashboards to clients, turning abstract data points into actionable recommendations for stakeholders, and a drive to use my technical skills to create these insights myself.<img width="468" height="72" alt="image" src="https://github.com/user-attachments/assets/af5ebeb2-f116-4935-a198-d536e00b2fac" />
+    I am a data and Machine Learning enthusiast, fascinated by how real-world impact data insights can revolutionise business decisions. I bring 3 years of professional experience translating BI dashboards to clients, turning abstract data points into actionable recommendations for stakeholders, and a drive to use my technical skills to create these insights myself.
 .</p>
   </section>
-
-  <section>
-    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
-    <p><strong>MSc Natural Language Processing</strong><br>
-    Cardiff University, 2024–2025<br>
-    <em>Taught stage completed with Distinction, Dissertation stage completed, awaiting results</em></p>
-  </section>
-
+  
   <section>
     <h2><i class="fa-solid fa-laptop-code"></i> Technical Skills</h2>
     <ul>
@@ -36,6 +29,14 @@ permalink: /cv/
       <li><strong>Tools:</strong> Figma, Adobe XD, GitHub, Notion</li>
     </ul>
   </section>
+  
+  <section>
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+    <p><strong>MSc Natural Language Processing</strong><br>
+    Cardiff University, 2024–2025<br>
+    <em>Taught stage completed with Distinction, Dissertation stage completed, awaiting results</em></p>
+  </section>
+
 
   <section>
     <h2><i class="fa-solid fa-file-pdf"></i> Download My CV</h2>
@@ -46,12 +47,3 @@ permalink: /cv/
 
 </div>
 
-<script>
-document.addEventListener("scroll", () => {
-  const cv = document.querySelector(".cv-container");
-  const rect = cv.getBoundingClientRect();
-  if (rect.top < window.innerHeight - 100) {
-    cv.classList.add("show");
-  }
-});
-</script>
