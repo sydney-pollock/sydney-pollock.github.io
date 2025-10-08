@@ -40,7 +40,7 @@ permalink: /cv/
 
   <section>
     <h2><i class="fa-solid fa-file-pdf"></i> Download My CV</h2>
-    <p><a href="{{ '/assets/files/Sydney_Pollock_CV.pdf' | relative_url }}" target="_blank" class="cv-download-btn">
+    <p><a href="{{ '/assets/CV.pdf' | relative_url }}" target="_blank" class="cv-download-btn">
       <i class="fa-solid fa-download"></i> Download PDF
     </a></p>
   </section>
