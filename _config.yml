@@ -6,6 +6,7 @@ author: Sydney Pollock
 email: casydneyp@gmail.com
 
 header_pages:
-  - projects.md
+  - index.md
   - cv.md
+  - projects.md
   - contact.md
