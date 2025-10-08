@@ -1,6 +1,6 @@
 - title: "AI Agent to Track Vinyl Record Preorders"
-  technologies: "OpenAI API, Python, Airtable API"
-  description: "An AI agent that automates tracking vinyl record preorders by reading emails and updating an Airtable dashboard. It helps collectors keep tabs on delivery timelines effortlessly."
+  technologies: "Dust.tt based on Claude Sonnet"
+  description: "An AI agent that automates tracking vinyl record preorders by identifying the necessary information from an email confirmation and updating a Notion database to track all orders. It helps collectors keep tabs on delivery timelines effortlessly."
   video: "https://www.youtube.com/embed/aad_FxUojA8?si=oEaZcadwnBBLyP_o"
 
 - title: "Project Name 2"
